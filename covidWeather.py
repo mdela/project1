@@ -6,8 +6,9 @@ import matplotlib.pyplot as plt
 
 # file1 contains California highs and lows
 # file2 contains California COVID increases
-file1 = 'CAhighsandlows.csv'
-file2 = 'CAcovid.csv'
+
+file1 = 'CAhighsandlows.csv' # change file directory here
+file2 = 'CAcovid.csv' # change file directory here
 
 # declare all of the lists
 tempDates, tempHighs, tempLows, tempAvgs = [], [], [], []
@@ -47,7 +48,7 @@ fig.suptitle('Weather Relation to Covid', size=15)
 ax[0].plot(tempDates, tempHighs, c='red')
 ax[0].plot(tempDates, tempLows, c='blue')
 ax[0].fill_between(tempDates, tempHighs, tempLows, facecolor='blue', alpha = 0.2)
-# formatting ax 0
+
 ax[0].set_title('Highs and Lows (March 2020 - March 2021)')
 ax[0].xaxis.set_ticks([])
 
