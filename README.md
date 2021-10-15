@@ -1,5 +1,9 @@
 # project2
 
+I made this project to determine if there was a correlation between temperatures and COVID cases. 
+I wanted to know if higher daily temperature meant less daily cases and if lower daily temperature meant more daily cases.
+
+
 Program plots two graphs:
 * graph1 : high and low temperatures recorded in Los Angeles from March 13, 2020 to March 12, 2021
 * graph2 : daily COVID cases recorded in California from March 13, 2020 to March 07, 2021
