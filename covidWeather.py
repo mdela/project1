@@ -6,8 +6,8 @@ import matplotlib.pyplot as plt
 
 # file1 contains California highs and lows
 # file2 contains California COVID increases
-file1 = '/Users/martin/Documents/Python Assignments/projects/covid data/CAhighsandlows.csv'
-file2 = '/Users/martin/Documents/Python Assignments/projects/covid data/CAcovid.csv'
+file1 = 'CAhighsandlows.csv'
+file2 = 'CAcovid.csv'
 
 # declare all of the lists
 tempDates, tempHighs, tempLows, tempAvgs = [], [], [], []
