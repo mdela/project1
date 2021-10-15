@@ -44,15 +44,18 @@ with open(file2) as f2:
 fig, ax = plt.subplots(2, 1)
 
 fig.suptitle('Weather Relation to Covid', size=15)
+fig.autofmt_xdate()
 
 ax[0].plot(tempDates, tempHighs, c='red')
 ax[0].plot(tempDates, tempLows, c='blue')
 ax[0].fill_between(tempDates, tempHighs, tempLows, facecolor='blue', alpha = 0.2)
+ax[0].set_ylabel('Temperature (F)')
 
 ax[0].set_title('Highs and Lows (March 2020 - March 2021)')
 ax[0].xaxis.set_ticks([])
 
 ax[1].plot(covidDates, covidIncreases, c='purple')
 ax[1].set_title('COVID Daily Cases (March 2020 - March 2021)')
+ax[1].set_ylabel("Cases")
 
 plt.show() 
