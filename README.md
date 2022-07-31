@@ -1,4 +1,4 @@
-# project2
+# project1
 
 I made this project to determine if there was a correlation between temperatures and COVID cases. 
 I wanted to know if higher daily temperature meant less daily cases and if lower daily temperature meant more daily cases.
